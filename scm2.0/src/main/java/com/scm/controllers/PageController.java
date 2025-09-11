@@ -58,6 +58,9 @@ public class PageController {
         return new String("contact");
     }
 
+    //this is registration controller  view-page
+    
+
     // this is showing login page
     @GetMapping("/login")
     public String login() {
