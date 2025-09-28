@@ -2,7 +2,7 @@
 <html
   class="light"
   lang="en"
-  th:fragment="parent(content, title, script)"
+  th:fragment="parent(content,title,script)"
   xmlns:th="http://www.thymeleaf.org"
 >
   <head>
@@ -27,7 +27,7 @@
     />
   </head>
   <body class="dark:bg-gray-900 bg-gray-100 dark:text-white">
-    <!-- common header -->
+    <!-- commona header -->
 
     <!--  user is logged in : navbar -->
     <div th:if="${loggedInUser}">
@@ -43,6 +43,7 @@
     <div class="">
       <section data-th-replace="${content}"></section>
     </div>
+    <!-- flow bite content -->
 
     <!-- common footer -->
     <!-- <footer class="p-4">Footer: Learn Code With Durgesh</footer> -->
